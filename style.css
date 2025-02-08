@@ -101,6 +101,22 @@ footer{
     max-width: 100%;
 }
 
+#enviar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#feedback {
+    margin: 10px;
+    width: 90vw;
+}
+
+@media (max-width: 600px) {
+    #enviar {
+        justify-content: center;
+    }
+}
+
 @keyframes animation {
     to{
         transform: scale(1.2) ;
