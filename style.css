@@ -1,0 +1,116 @@
+h1:hover{
+    animation-name: anima;
+    animation-iteration-count: infinite;
+    animation-duration: 0.3s;
+    max-width: 100%;
+}
+
+.mainly{
+    padding: 50px;
+}
+
+
+header{
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+nav{
+    display: flex;
+    gap: 2vw;
+}
+
+img{
+
+    width: 30vw;
+    border-radius: 200%;
+    shape-outside: circle();
+}
+
+.mainly{
+    display: flex;
+}
+
+.parent{
+    margin: 30px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.box{
+    display: inline-block;
+    margin: 1vw;
+    border: 3px solid black;
+    width: auto;
+    height: 60px;
+    box-shadow: 10px 10px gray;
+    background-color: blanchedalmond;
+    padding: 3px;
+    
+}
+
+.box:hover{
+    animation-name: animation;
+    animation-duration: 1s;
+    
+}
+
+.tit{
+    font-size: larger;
+}
+
+footer{
+    background-color: aqua;
+    height: 100px;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.containerr{
+    display: flex;
+    gap: 50px;
+}
+
+.contact{
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.insta{
+    width: 100px;
+    max-width: 100%;
+
+}
+
+.git{
+    width: 100px;
+    max-width: 100%;
+}
+
+@keyframes animation {
+    to{
+        transform: scale(1.2) ;
+    }
+
+}
+
+@keyframes anima {
+    to{
+        color: aliceblue;
+    }
+    
+}
